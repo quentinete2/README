@@ -80,6 +80,25 @@
             font-size: 0.9em;
             color: #aaa;
         }
+        .floating-button {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            padding: 15px 25px;
+            font-size: 1em;
+            background-color: rgba(71, 7, 208, 0.7); /* couleur avec transparence */
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease;
+        }
+
+        .floating-button:hover {
+            background-color: #F0E6D2;
+            color: #8B5A2B;
+        }
     </style>
 </head>
 <body>
@@ -100,6 +119,9 @@
     <footer>
         <p>&copy; 2024 Mes Dépôts Git. Tous droits réservés.</p>
     </footer>
+    <button class="floating-button" onclick="window.location.href='https://quentinete2.github.io/README/'">
+        Voir Page d'accueil
+    </button>
     <div class="footer-name">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         Quentin Lesprit
