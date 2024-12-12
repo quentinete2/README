@@ -3,94 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Formation JavaScript</title>
+    <title>Mes Dépôts Git</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        html {
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
         body {
             font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            background-image: url('img/desktop-wallpaper-monster-hunter-rise-screen-21.jpg');
+            background: url('./img/360_F_659383627_UtpH18oGF0QlsEkhg0Sn5zVJIVlaoBsg.jpg') no-repeat center center fixed;
             background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
             text-align: center;
-            padding: 1.5em 0;
+            padding: 2em 0;
+            width: 100%;
         }
         header h1 {
+            font-size: 3em;
             margin: 0;
-            font-size: 2.5em;
+            color: #fff;
         }
         main {
             padding: 20px;
-            max-width: 800px;
+            background-color: rgba(101, 44, 208, 0.8);
+            max-width: 900px;
             margin: 0 auto;
-            background: white;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1;
         }
         main h2 {
-            color: #4CAF50;
+            font-size: 2em;
+            color: #333;
             margin-bottom: 20px;
-            font-size: 1.8em;
         }
         nav ul {
             list-style-type: none;
             padding: 0;
         }
         nav ul li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         nav ul li a {
             text-decoration: none;
-            color: #4CAF50;
+            color: #fff;
             font-weight: bold;
-            padding: 10px 15px;
-            border: 2px solid #4CAF50;
+            padding: 15px 25px;
+            border: 2px solid #fff;
             border-radius: 5px;
             display: inline-block;
+            font-size: 1.2em; /* Augmentation de la taille du texte */
             transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour donner du relief */
         }
         nav ul li a:hover {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Ombre plus marquée au survol */
         }
         footer {
             text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
+            padding: 15px 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+        }
+        footer p {
             font-size: 0.9em;
-            color: #777;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Ma Formation JavaScript</h1>
+        <h1>Mes Dépôts Git</h1>
     </header>
     <main>
-        <h2>Table des Travaux Pratiques</h2>
+        <h2>Accédez à mes projets Git</h2>
         <nav>
             <ul>
-                <li><a href="./TP VIP cocktail 08\frontend\index.html">TP VIP cocktail 08</a></li>
-                <li><a href="https://quentinete2.github.io/Formation-javascript/">Projet js</a></li>
+                <li><a href="https://quentinete2.github.io/Formation-javascript/">Projet JavaScript</a></li>
+                <li><a href="https://quentinete2.github.io/projet_node/">Projet Node.js</a></li>
+                <!-- Ajoute d'autres liens ici -->
             </ul>
         </nav>
     </main>
     <footer>
-        &copy; 2024 Ma Formation JavaScript. Tous droits réservés.1
+        <p>&copy; 2024 Mes Dépôts Git. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
+
+
 
